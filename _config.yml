@@ -84,7 +84,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: ocean
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -92,3 +92,21 @@ deploy:
   type: git
   repo: git@github.com:xyyVee/xyyVee.github.io.git
   branch: master
+
+# 主题配置，Docs: https://zhwangart.github.io/2018/11/30/Ocean/#Toc-%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95
+## 插件 hexo-generator-search 配置
+search:
+  path: search.xml
+  field: post
+  content: true
+
+## 插件 hexo-generate-feed 配置
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
