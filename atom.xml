@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://github.com/xyyVee/xyyVee.github.io/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2020-06-21T16:26:27.098Z</updated>
-  <id>https://github.com/xyyVee/xyyVee.github.io/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>夏暴雨</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>那些好用的 vscode 插件</title>
-    <link href="https://github.com/xyyVee/xyyVee.github.io/2020/06/21/%E6%8F%92%E4%BB%B6/"/>
-    <id>https://github.com/xyyVee/xyyVee.github.io/2020/06/21/插件/</id>
+    <link href="http://yoursite.com/2020/06/21/%E6%8F%92%E4%BB%B6/"/>
+    <id>http://yoursite.com/2020/06/21/插件/</id>
     <published>2020-06-21T15:48:38.000Z</published>
     <updated>2020-06-21T16:26:27.098Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>前端工具更新过程</title>
-    <link href="https://github.com/xyyVee/xyyVee.github.io/2020/06/21/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7/"/>
-    <id>https://github.com/xyyVee/xyyVee.github.io/2020/06/21/前端工具版本升级/</id>
+    <link href="http://yoursite.com/2020/06/21/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7/"/>
+    <id>http://yoursite.com/2020/06/21/前端工具版本升级/</id>
     <published>2020-06-21T15:24:17.000Z</published>
     <updated>2020-06-21T16:26:27.098Z</updated>
     
@@ -64,8 +64,8 @@
   
   <entry>
     <title>搭建过程(持续更新)</title>
-    <link href="https://github.com/xyyVee/xyyVee.github.io/2019/10/18/%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"/>
-    <id>https://github.com/xyyVee/xyyVee.github.io/2019/10/18/搭建过程/</id>
+    <link href="http://yoursite.com/2019/10/18/%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"/>
+    <id>http://yoursite.com/2019/10/18/搭建过程/</id>
     <published>2019-10-18T03:13:35.000Z</published>
     <updated>2020-06-21T16:26:27.099Z</updated>
     
@@ -84,7 +84,7 @@
     
     
     
-      <category term="资料学习" scheme="https://github.com/xyyVee/xyyVee.github.io/tags/%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0/"/>
+      <category term="资料学习" scheme="http://yoursite.com/tags/%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
