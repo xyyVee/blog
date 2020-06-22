@@ -77,7 +77,7 @@
     <title>搭建过程(持续更新)</title>
     <url>/2019/10/18/%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</url>
     <content><![CDATA[<h2 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2><ol>
-<li>资料： <a href="https://godweiyang.com/2018/04/13/hexo-blog/" target="_blank" rel="noopener">https://godweiyang.com/2018/04/13/hexo-blog/</a></li>
+<li>资料： <a href="https://godweiyang.com/2018/04/13/hexo-blog/" target="_blank" rel="noopener">https://godweiyang.com/2018/04/13/hexo-blog/</a> <a href="https://www.simon96.online/2018/10/12/hexo-tutorial/" target="_blank" rel="noopener">https://www.simon96.online/2018/10/12/hexo-tutorial/</a></li>
 <li>和github联通</li>
 <li><a href="https://hexo.io/zh-cn/docs/writing" target="_blank" rel="noopener">中文官网</a></li>
 <li>新建页面：hexo new post “article title”</li>
