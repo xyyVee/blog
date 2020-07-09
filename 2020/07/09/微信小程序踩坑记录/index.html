@@ -9,7 +9,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
-    那些好用的 vscode 插件 |
+    微信小程序踩坑记录 |
     
     夏暴雨的博客</title>
   
@@ -27,7 +27,7 @@
   <section class="outer">
   
 
-<article id="post-插件" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
+<article id="post-微信小程序踩坑记录" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
   
   <div class="article-inner">
     
@@ -35,7 +35,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      那些好用的 vscode 插件
+      微信小程序踩坑记录
     </h1>
   
   
@@ -48,8 +48,8 @@
 
     
       <div class="article-meta">
-        <a href="/blog/2020/06/21/%E6%8F%92%E4%BB%B6/" class="article-date">
-  <time datetime="2020-06-21T15:48:38.000Z" itemprop="datePublished">2020-06-21</time>
+        <a href="/blog/2020/07/09/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" class="article-date">
+  <time datetime="2020-07-09T03:40:21.000Z" itemprop="datePublished">2020-07-09</time>
 </a>
         
       </div>
@@ -72,15 +72,15 @@
       
 
       
-        <h3 id="vetur"><a href="#vetur" class="headerlink" title="vetur"></a><a href="https://marketplace.visualstudio.com/items?itemName=hikerpig.vetur" target="_blank" rel="noopener">vetur</a></h3><p>这是一个 vue 的插件,支持语法高亮，Snippet，Emmet等</p>
-<h3 id="Draw-io-Integration"><a href="#Draw-io-Integration" class="headerlink" title="Draw.io Integration"></a><a href="https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio" target="_blank" rel="noopener">Draw.io Integration</a></h3><p>可以让你在 vscode 里面画流程图！</p>
-<h3 id="Polacode"><a href="#Polacode" class="headerlink" title="Polacode"></a><a href="https://marketplace.visualstudio.com/items?itemName=pnp.polacode" target="_blank" rel="noopener">Polacode</a></h3><p>ctrl + shift + p打开命令面板，输入 Polacode 就可以打开新窗口，这时候你只要选中你要生成图片的代码就可以完成代码段变图的功能了</p>
-<h3 id="Vue-VSCode-Snippets"><a href="#Vue-VSCode-Snippets" class="headerlink" title="Vue VSCode Snippets"></a><a href="https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets" target="_blank" rel="noopener">Vue VSCode Snippets</a></h3><p>新建 vue 文件的时候可以快速帮你搭结构，直接在文件中输入 <code>vbase</code> 就可以有个大概样子了，提高工作效率必备！</p>
+        <h2 id="微信小程序踩坑记录"><a href="#微信小程序踩坑记录" class="headerlink" title="微信小程序踩坑记录"></a>微信小程序踩坑记录</h2><p>1.canvas 画图，字体颜色不对啦，缺失画的那些矩形啦，字体大小不对啦（测试说在 iOS 上出现的几率比较小，在 Android 上出现的几率比较大）</p>
+<p>解决办法（测试说概率降低了很多）：<br>1.把异步操作提出来，用 promise 去包起来。最后用一个 <code>Promise.all([p1,p2,p3]).then(...)</code> 之后再去画图<br>  这里涉及到的有：跑接口拿数据，<code>wx.getImageInfo()</code><br>  wx.getImageInfo - 需要注意的是，微信小程序的画布不能直接用网络图片，需要利用 <code>wx.getImageInfo({})</code> 来将网络图片转化为本地图片（不查资料我还真一脸懵逼呢）</p>
+<p>参考资料：<a href="https://www.cnblogs.com/At867604340/p/11601402.html" target="_blank" rel="noopener">https://www.cnblogs.com/At867604340/p/11601402.html</a><br><a href="https://my.oschina.net/u/4053340/blog/3007106" target="_blank" rel="noopener">https://my.oschina.net/u/4053340/blog/3007106</a></p>
+<p>2.加延时 加延时 加延时 还得在这个地方加才比较有用<br>ctx.draw(false, () =&gt; {<br>  setTimeout(() =&gt; {<br>    this.drawCode()<br>  }, 3000)<br>})</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://xyyvee.github.io/2020/06/21/%E6%8F%92%E4%BB%B6/" data-id="ckce8vj3w0001na77dvdf7xj4"
+      <a data-url="https://xyyvee.github.io/2020/07/09/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" data-id="ckce8vj3s0000na77452rdkf5"
          class="article-share-link">Share</a>
       
     </footer>
@@ -91,19 +91,10 @@
     
   <nav class="article-nav">
     
-      <a href="/blog/2020/07/09/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" class="article-nav-link">
-        <strong class="article-nav-caption">Newer posts</strong>
-        <div class="article-nav-title">
-          
-            微信小程序踩坑记录
-          
-        </div>
-      </a>
     
-    
-      <a href="/blog/2020/06/21/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7/" class="article-nav-link">
+      <a href="/blog/2020/06/21/%E6%8F%92%E4%BB%B6/" class="article-nav-link">
         <strong class="article-nav-caption">Olde posts</strong>
-        <div class="article-nav-title">前端工具更新过程</div>
+        <div class="article-nav-title">那些好用的 vscode 插件</div>
       </a>
     
   </nav>
