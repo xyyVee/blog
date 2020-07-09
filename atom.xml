@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://xyyvee.github.io/"/>
-  <updated>2020-07-09T03:41:29.999Z</updated>
+  <updated>2020-07-09T03:44:50.166Z</updated>
   <id>https://xyyvee.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xyyvee.github.io/2020/07/09/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"/>
     <id>https://xyyvee.github.io/2020/07/09/微信小程序踩坑记录/</id>
     <published>2020-07-09T03:40:21.000Z</published>
-    <updated>2020-07-09T03:41:29.999Z</updated>
+    <updated>2020-07-09T03:44:50.166Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,9 @@
       
         
         
-          &lt;h2 id=&quot;微信小程序踩坑记录&quot;&gt;&lt;a href=&quot;#微信小程序踩坑记录&quot; class=&quot;headerlink&quot; title=&quot;微信小程序踩坑记录&quot;&gt;&lt;/a&gt;微信小程序踩坑记录&lt;/h2&gt;&lt;p&gt;1.canvas
+          &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;canvas 画图，字体颜色不对啦，缺失画的那些矩形啦，字体大小不对啦（测试说在 iOS 上出现的几率比较小，在 Android 上出现的几率比较大）&lt;/p&gt;
+&lt;p&gt;
         
       
     
